@@ -1,0 +1,115 @@
+/* style.css */
+
+/* Reset beberapa style default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Umum */
+body {
+    font-family: Helvetica;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header dan Footer */
+header, footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+/* Kontainer utama */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navigasi */
+nav {
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f8f9fa;
+}
+
+/* Tombol */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Formulir Umum */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input:focus {
+    border-color: #007bff;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Pesan Error */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+
+
